@@ -15,6 +15,10 @@ body{
     
 }
 
+.navbar-nav{
+    padding: 10px;
+}
+
 .item-1{
     flex-shrink: 0;
 }
@@ -197,7 +201,8 @@ img{
 }
 
 #backforth{
-    background-color: #9F33FF;
+    background-color: black;
+    height: 20px;
 }
 
 button :hover{
