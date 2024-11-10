@@ -5,6 +5,14 @@ body{
 #fbyt :hover {
     width: 36px;
     height: 36px;
+    float:inline-end;
+    
+}
+
+
+
+.bi bi-youtube{
+color: rgb(255, 64, 47);
 }
  
 .item{
@@ -38,17 +46,17 @@ body{
     align-content: flex-start;
 }
 
-.flex-container{
+/* .flex-container{
     display: flex;
     /*flex-direction: row;*/
-    flex-direction: column;
+    /* flex-direction: column; */
     /* flex-wrap: wrap-reverse;*/
-    height: 50vh;
+    /* height: 50vh; */
     /* align-items: flex-end; */
-    align-items: center;
+    /* align-items: center;
     background:#E3D9D9;
     justify-content: space-around;
-}
+} */
 
 
 
@@ -67,6 +75,11 @@ padding: 10px;
 color: #E3D9D9;
 }
 
+
+.container{
+    display: inline;
+}
+
 #i1{
 
     height: 100px;
@@ -79,6 +92,7 @@ color: #E3D9D9;
     height: 100px;
     margin-top: 4px;
     border: 2px solid black;
+    width: 10px;
 }
 
 .c1{

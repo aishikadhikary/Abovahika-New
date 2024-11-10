@@ -16,3 +16,15 @@ body{
     font-size: 60px;
 
 }
+
+#backforth{
+
+    padding: 50px;
+    background-color: black;
+    height: 20px;
+    margin-bottom: 3px;
+}
+
+#foot{
+    margin-top: 300px;
+}
