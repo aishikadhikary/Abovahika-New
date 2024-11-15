@@ -2,11 +2,50 @@ body{
     background-color: #FFC300;
     
 }
+
+@media only screen and (max-width: 360px){
+    #backforth{
+
+        padding: 50px;
+        background-color: black;
+        height: 20px;
+        margin-bottom: 3px;
+        width: 762px;
+    }
+
+    #i1{
+    height: 100px;
+    margin-top: 4px;
+    border: 2px solid black;
+    width: 252px;
+    margin-left: 113px;
+    }
+    .c1{
+        text-align: center;
+    margin-top: 2px;
+    /* margin-bottom: 10px; */
+    
+    color: #DD4A4A;
+    /* text-decoration-line: underline overline;  */
+     font-family:'MV Boli';
+    border-radius: 14px;
+    font-size: 100px;
+    margin-left: 89px;
+    }
+}
 #fbyt :hover {
     width: 36px;
     height: 36px;
-    float:inline-end;
     
+}
+
+#fb_yt_div{
+    margin-left: 6px;
+    background-color: #69ff33;
+    padding: 7px;
+    width: 80px;
+    border-radius: 3px;
+    border: solid black;
 }
 
 
